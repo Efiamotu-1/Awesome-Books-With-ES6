@@ -1,4 +1,3 @@
-// import {DateTime} from '../node_modules/luxon/src/luxon.js'
 import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
 const date = document.getElementById('date');
