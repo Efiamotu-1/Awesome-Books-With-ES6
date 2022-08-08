@@ -103,8 +103,6 @@ footer {
   background-color: rgb(156, 147, 147);
 }
 
-
-
 #new-book {
   width: 96%;
   margin: 2rem auto;
@@ -159,7 +157,6 @@ footer {
 #book-list li:nth-child(2n) {
   background-color: #fff;
 }
-
 
 #contact > * {
   width: 50%;
