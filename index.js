@@ -1,14 +1,11 @@
 import BookCollection from './modules/books.js';
-// import {newBook} from './modules/newBook.js';
 import getDate from './modules/date.js';
 import { showList, addBooks, contactPages } from './modules/switchPage.js';
-
 const form = document.querySelector('form');
 const showBooks = document.querySelector('#book-list');
 const contactPage = document.getElementById('contact-link');
 const add = document.getElementById('add-link');
 const list = document.getElementById('list-link');
-// const allBooks = document.getElementById('all-books');
 
 const newBook = new BookCollection();
 
