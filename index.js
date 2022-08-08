@@ -1,6 +1,7 @@
 import BookCollection from './modules/books.js';
 import getDate from './modules/date.js';
 import { showList, addBooks, contactPages } from './modules/switchPage.js';
+
 const form = document.querySelector('form');
 const showBooks = document.querySelector('#book-list');
 const contactPage = document.getElementById('contact-link');
