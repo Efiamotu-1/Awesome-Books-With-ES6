@@ -1,8 +1,11 @@
 // import {DateTime} from '../node_modules/luxon/src/luxon.js'
-// const date = document.getElementById('date')
-import {DateTime} from '../node_modules/luxon/src/luxon.js'
- const getDate = () => {
-    return date.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
-}
+import { DateTime } from '../node_modules/luxon/src/luxon.js';
 
-export default getDate
+const date = document.getElementById('date');
+
+const getCurrentDate = function () {
+  date.innerHTML = DateTime.now().toLocaleString(DateTime.DATETIME_MED);
+};
+
+const getDate = () => getCurrentDate();
+export default getDate;
