@@ -12,9 +12,6 @@ This repository contains a web app that allows to add and remove books and its i
 - CSS
 - Javascript ES6
 
-## Live Demo
-https://efiamotu-1.github.io/Awesome-Books-With-ES6/
-
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps.
